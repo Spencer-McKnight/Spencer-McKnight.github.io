@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Creating Web Applications" />
+    <meta name="keywords" content="Assignment 2, enhancements 2, html, css" />
+    <meta name="author" content="Spencer McKnight - 103061518" />
+    <title>Assignment 2 - Enhancements 2 html</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header><h1>Blogs</h1></header>
+    <div class="topnav">
+      <a href="index.html">Intro</a>
+      <a href="topic.html">Topic</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="enhancements.html">Enhancements</a>
+      <a class="active" href="enhancements2.html">Enhancements 2</a>
+    </div>
+    <article class="flex-container">
+      <br />
+      <h2>Enhancements 2 (Javascript)</h2>
+      <h2>1. Timer and late submission status</h2>
+      <p>
+        The timer is triggered on the loading of the quiz page. Rather than
+        onload, it is triggered using an event listener. For a programmer to
+        implement this feature, they must implement a count, as well as the use
+        of an interval function. An interval iterates after a given amount of
+        time in ms, which depletes the count. On zero, a programmer can cause an
+        action. In this instance, I added a late status that is changed to true.
+      </p>
+      <p>I utilised the timer example displayed on codegrepper to assist:</p>
+      <p>
+        'Foolish Ferret' 2020, Add Countdown Timer to Javascript Quiz, Grepper,
+        viewed 25 September 2020,
+        &lt;https://www.codegrepper.com/code-examples/javascript/add+countdown+timer+to+javascript+quiz&gt;
+      </p>
+      <a href="quiz.html#timer">View Timer</a>
+      <h2>2. Prefilling User Information on re-attempt.</h2>
+      <p>
+        The prefilling of student information is similarly triggered on loading
+        of the quiz page with an eventListener. To implement this feature, a
+        programmer first checks if there is a name stored in session storage. If
+        so, it gets first name, family name and student ID from session storage
+        and assigns their values to the relevant textboxes.
+      </p>
+      <p>
+        I did not utilise external code. This enhancement can only be seen after
+        a complete attempt of the quiz.
+      </p>
+      <a href="quiz.html#stuID">Go to student details</a>
+      <br />
+      <br />
+    </article>
+    <footer>
+      <a href="mailto:103061518@student.swin.edu.au">Email Spencer McKnight</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="High Distinction Task" />
+    <meta
+      name="keywords"
+      content="HD, Cleaning services quote system, html, Programming Concepts"
+    />
+    <meta name="author" content="Spencer McKnight - 103061518" />
+    <title>103061518 HD Task</title>
+  </head>
+  <script src="./HD.js"></script>
+  <link rel="stylesheet" href="./HD.css" />
+  <body>
+    <article class="flex-container">
+      <section class="header">
+      <header><h1>Cleaning Services Quote System</h1></header>
+    </section>
+      <article class="inputs">
+      <form>
+        <p>
+          <label id="lblTxt">Name: <input type="text" id="txtName" /></label>
+          <span id="errName"></span>
+        </p>
+        <p>
+          <label id="lblTxt"
+            >Organisation Name: <input type="text" id="txtOrgName"
+          /></label>
+          <span id="errOrgName"></span>
+        </p>
+        <p>
+          <label id="lblTxt">Email: <input type="text" id="txtEmail" /></label>
+          <span id="errEmail"></span>
+        </p>
+        <label id="lblTxt"
+          >Number of Visits: <input type="text" id="txtVisits"
+        /></label>
+        <span id="errVisits"></span>
+        <p>
+        <fieldset id="fldPackages">
+          <legend>Packages</legend>
+          <p>
+            <label for="basic">Basic</label>
+            <input type="radio" id="rBasic" name="basic" />
+          </p>
+          <p>
+            <label for="basicExtra">Basic Extra</label>
+            <input type="radio" id="rBasicExtra" name="basicExtra" />
+          </p>
+          <p>
+            <label for="Extensive">Extensive</label>
+            <input type="radio" id="rExtensive" name="extensive" />
+          </p>
+        </fieldset>
+        <span id="errPackage"></span>
+        </p>
+        <p>
+        <label
+          >Cleaning Materials Provided by Client<input
+            type="checkbox"
+            id="chkCleaning"
+            name="cleaningMaterials"
+          /> </label
+        ></p>
+        <button type="button" id="btnClearForm">Clear Form</button>
+        <button type="button" id="btnGetQuote">Get a Quote</button>
+        <button type="button" id="btnClearOutput">Clear Output</button>
+        <span id="errGetQuote"></span>
+        <section class = "out">
+        <p id="output1"></p>
+      </section>
+    </form>
+    </article>
+    <article class="inputs2">
+      <h2>Functionality for Management</h2>
+      <form>
+        <p>
+        <button type="button" id="btnList">List Quotes</button>
+        <button type="button" id="btnResetQuotes">Reset Quotes</button>
+        </p>
+        <label id="lblTxt"
+          >Search Quotes by Name or Organisation: <input type="text" id="txtSearch"
+        /></label>
+        <label id="lblTxt"
+          >Choose a package to search:
+          <select name="packages" id="dropPackage">
+            <option value="Basic">Basic</option>
+            <option value="Basic Extra">Basic Extra</option>
+            <option value="Extensive">Extensive</option>
+          </select>
+        </label>
+        <br/>
+        <button type="button" id="btnSearch">Search</button> <span id="errSearch"></span>
+        <section class = "out">
+        <p id="output2"></p>
+      </section>
+      </form>
+    </article>
+    <section class="footer">
+    <footer>Produced by Spencer McKnight - 103061518</footer>
+  </section>
+</article>
+  </body>
+</html>

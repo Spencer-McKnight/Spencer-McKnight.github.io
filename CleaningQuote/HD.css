@@ -1,0 +1,75 @@
+[id^="err"] {
+  color: red;
+  font-style: italic;
+  font-size: small;
+}
+
+[id^="btn"] {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: medium;
+}
+
+#fldPackages {
+  width: 250px;
+}
+
+body {
+  color: rgb(29, 28, 28);
+  font-family: "Roboto";
+  font-weight: 800;
+}
+
+#lblTxt {
+  color: rgb(69, 69, 161);
+}
+
+.flex-container {
+  background-color: royalblue;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: lightskyblue;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inputs {
+  background-color: lightgoldenrodyellow;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.inputs2 {
+  background-color: rgb(255, 249, 191);
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.out {
+  background-color: whitesmoke;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.footer {
+  background-color: lightskyblue;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
