@@ -1,6 +1,5 @@
 [id^="err"] {
   color: red;
-  font-style: italic;
   font-size: small;
 }
 
@@ -15,54 +14,57 @@
 }
 
 body {
-  color: rgb(29, 28, 28);
+  color: #e0e1e1;
   font-family: "Roboto";
   font-weight: 800;
 }
 
-#lblTxt {
-  color: rgb(69, 69, 161);
-}
-
 .flex-container {
-  background-color: royalblue;
+  background-color: #2d3142;
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
 }
 
-.header {
-  background-color: lightskyblue;
+input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.header,
+.inputs,
+.inputs2,
+.footer {
   margin: 10px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #ef8354;
   text-align: center;
 }
 
 .inputs {
-  background-color: lightgoldenrodyellow;
-  margin: 10px;
-  border-radius: 10px;
-  text-align: left;
+  padding: 10px;
+  background-color: #4f5d75;
 }
 
 .inputs2 {
-  background-color: rgb(255, 249, 191);
-  margin: 10px;
-  border-radius: 10px;
-  text-align: left;
+  background-color: #4f5d75;
 }
 
 .out {
-  background-color: whitesmoke;
-  margin: 10px;
-  border-radius: 10px;
-  text-align: left;
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000000;
 }
 
 .footer {
-  background-color: lightskyblue;
-  margin: 10px;
-  border-radius: 10px;
+  background-color: #ef8354;
   text-align: center;
 }
 
